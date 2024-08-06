@@ -1,7 +1,7 @@
 .body-container {
-  
+  width: 1440px;
     background-color: #F2F2F2;
-
+    margin: 0 auto;
   }
   .deal{
     display: flex;

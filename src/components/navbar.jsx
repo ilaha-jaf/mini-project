@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 import { FaShoppingBasket } from "react-icons/fa";
 export default function Navbar() {
     return (
-        <div>
+        <div className="nav-section">
 
             <nav className="nav">
                 <p>COLO<span>SHOP</span></p>

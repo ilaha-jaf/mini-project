@@ -11,13 +11,14 @@ import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import{Route,Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 function App() {
   
   return (
     <> 
     <Navbar/>
-<div className="container">
+
 <Routes>
 <Route path="/" element={<Home/>}/>
 <Route path="/add" element={<Add/>}/>
@@ -29,7 +30,7 @@ function App() {
 <Route path="/product/:id" element={<Product />} />
 <Route path="*" element={ <div>Page Not Found!</div>  }/>
 </Routes>
-</div>
+
 <br />
 <br />
 <Newsletter/>

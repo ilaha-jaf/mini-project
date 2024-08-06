@@ -1,8 +1,9 @@
 .footer-container {
-   
+  width: 1440px;
     align-items: center;
     padding: 20px;
     color: black;
+    margin: 0 auto;
   }
   .footer{
     display: flex;

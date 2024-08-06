@@ -1,6 +1,8 @@
 .arrivals-container {
+  width: 1440px;
   text-align: center; 
   padding: 20px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -60,7 +62,7 @@ button.active {
 }
 
 .add-to-basket {
-  width: 230px;
+  width: 257px;
   display: none; 
   position: absolute;
   left: 50%;
