@@ -1,0 +1,38 @@
+
+  .arrivals-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  .product-container {
+    display: flex;
+    overflow: hidden;
+  }
+  .price{
+    color: #e74c3c;
+  }
+
+  
+  .slider-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .slider-controls button {
+    background-color: #ccc;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .slider-controls button:disabled {
+    background-color: rgb(237, 235, 235);
+    cursor: not-allowed;
+  }
+  

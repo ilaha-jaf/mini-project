@@ -1,0 +1,36 @@
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+  }
+  
+  .product-detail div {
+    flex: 1; 
+    margin-left: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  .decrement, .increment {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  .add-to-basket {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

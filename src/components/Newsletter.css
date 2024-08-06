@@ -1,0 +1,39 @@
+.newsletter-container {
+    margin-top: 80px;
+    background-color: #F2F2F2;
+   
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    align-items: center;
+    padding: 20px; 
+  }
+  .newsletter{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  .newsletter-container div:last-of-type {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter-container input {
+    padding: 10px;
+    padding-right: 60px;
+    margin-right: 0; 
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: -1px;
+  }
+  
